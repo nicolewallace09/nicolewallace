@@ -2,7 +2,7 @@
   "name": "nicolewallace",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nicolewallace09.github.io/nicolewallace",
+  "homepage": "https://nicolewallace09.github.io/nicolewallace",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
