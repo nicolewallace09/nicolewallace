@@ -31,3 +31,10 @@ There are no tests for this application.
 
 ## Questions
 If you have any questions about this projects, please contact me directly at nicole.elisaw@gmail.com. You can view more of my projects at https://github.com/nicolewallace09.
+
+// "start": "react-scripts start",
+    // "build": "react-scripts build",
+    // "test": "react-scripts test",
+    // "eject": "react-scripts eject",
+    // "predeploy": "npm run build",
+    // "deploy": "gh-pages -d build"
