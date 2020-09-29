@@ -24,7 +24,7 @@ Please view deployed application on [Git Hub Pages](https://nicolewallace09.gith
 This project is license under MIT
 
 ## Contributing 
-Template and source code provided by [Tim Baker]. (https://github.com/tbakerx/react-resume-template)
+Template and source code provided by [Tim Baker](https://github.com/tbakerx/react-resume-template).
 
 ## Tests
 There are no tests for this application. 
