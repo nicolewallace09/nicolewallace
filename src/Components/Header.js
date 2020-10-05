@@ -6,13 +6,13 @@ import data from "../resumeData1.json";
 class Header extends Component {
   render() {
 
-    if(this.props.data){
-      var profilepic= "images/"+this.props.data.image;
+    if(data){
+      var profilepic= "images/"+data.main.image;
       // var name = this.props.data.name;
       // var occupation= this.props.data.occupation;
       // var description= this.props.data.description;
       // var city= this.props.data.address.city;
-      var networks= this.props.data.social.map(function(network){
+      var networks= data.main.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })
     }
