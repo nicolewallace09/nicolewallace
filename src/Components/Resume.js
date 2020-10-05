@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Modal from 'react-modal';
+import data from "../resumeData1.json";
 
 class Resume extends Component {
   render() {

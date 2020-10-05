@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 // import Typist from 'react-typist'; 
 import Typical from 'react-typical';
+import data from "../resumeData1.json";
 
 class Header extends Component {
   render() {
 
     if(this.props.data){
       var profilepic= "images/"+this.props.data.image;
-      var name = this.props.data.name;
+      // var name = this.props.data.name;
       // var occupation= this.props.data.occupation;
       // var description= this.props.data.description;
       // var city= this.props.data.address.city;
@@ -37,10 +38,10 @@ class Header extends Component {
 
       <div className="row banner">
       <div className="twelve columns">
-            <img className="profile-pic"  src={profilepic} alt="Profile Pic" />
+            <img className="profile-pic" src={profilepic} alt="Profile Pic" />
          </div>
          <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
+            <h1 className="responsive-headline">{data.main.name}</h1>
             
             <Typical
             loop={Infinity}

@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
+import data from "../resumeData1.json";
 
    // if i want to add back contact details
    //  <div className="columns contact-details">
@@ -13,22 +14,7 @@ import React, { Component } from 'react';
 	// 				   </p>
    //             </div> 
 
-class About extends Component {
-  render() {
-
-    if(this.props.data){
-      // var name = this.props.data.name;
-      // var profilepic= "images/"+this.props.data.image;
-      var bio = this.props.data.bio;
-      // var street = this.props.data.address.street;
-      // var city = this.props.data.address.city;
-      // var state = this.props.data.address.state;
-      // var zip = this.props.data.address.zip;
-      // var phone= this.props.data.phone;
-      // var email = this.props.data.email;
-      var resumeDownload = this.props.data.resumedownload;
-    }
-
+function About() {
     return (
       <section id="about">
       <div className="row">
@@ -38,12 +24,12 @@ class About extends Component {
          <div className="tweleve columns main-col">
             <h2>ABOUT ME</h2>
 
-            <p>{bio}</p>
+            <p>{data.main.bio}</p>
             <div className="row">
            
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button">DOWNLOAD MY RESUME</a>
+                     <a href={data.resumeDownload} className="button">DOWNLOAD MY RESUME</a>
                   </p>
                </div>
             </div>
@@ -53,7 +39,6 @@ class About extends Component {
    </section>
     );
   }
-}
 
 export default About;
 
