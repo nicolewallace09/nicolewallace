@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Modal from 'react-modal';
+// import Modal from 'react-modal';
 import data from "../resumeData1.json";
 
 class Resume extends Component {
@@ -22,28 +22,12 @@ class Resume extends Component {
         var className = 'bar-expand '+skills.name.toLowerCase();
         return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
       })
-
-      var certificates = data.resume.certificates.map(function(certificates){
-        var certImage = 'images/portfolio/'+certificates.image;
-        return <div key={certificates.title} className="columns portfolio-item">
-           <div className="item-wrap">
-            {/* <a href={certificates.url} title={certificates.title} onClick={Modal}> */}
-               <img alt={certificates.title} src={certImage} onClick={Modal}/>
-               <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{certificates.title}</h5>
-                     <p>{certificates.description}</p>
-                  </div>
-                </div>
-              {/* <div className="link-icon"><i className="fa fa-link"></i></div> 
-            </a> */}
-          </div>
-        </div>
       
-      })
+      
     }
 
     return (
+      <>
       <section id="resume">
 
       <div className="row education">
@@ -96,23 +80,10 @@ class Resume extends Component {
             </div>
           
 			</div>
-      
-      <div className="row certificates">
-
-        <div className="three columns header-col">
-          <h1><span>CERTIFICATES</span></h1>
-        </div>
-
-   
-        <div className="nine columns main-col border-1px bgrid-quarters s-bgrid-thirds cf" id="portfolio-wrapper">
-        {certificates}
-        </div>
-     
-      </div>
-
-
+  
       </div>
    </section>
+   </>
     );
   }
 }

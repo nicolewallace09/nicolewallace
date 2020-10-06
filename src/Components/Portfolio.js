@@ -9,7 +9,7 @@ class Portfolio extends Component {
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+            <a href={projects.url}>
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -22,9 +22,30 @@ class Portfolio extends Component {
           </div>
         </div>
       })
+      
+      var certificates = data.resume.certificates.map(function(certificates){
+        var certImage = 'images/portfolio/'+certificates.image;
+        return <div key={certificates.title} className="columns portfolio-item">
+           <div className="item-wrap">
+            {/* <a href={certificates.url} title={certificates.title} onClick={Modal}> */}
+               <img alt={certificates.title} src={certImage} />
+               <div className="overlay">
+                  <div className="portfolio-item-meta">
+                 <h5>{certificates.title}</h5>
+                     <p>{certificates.description}</p>
+                  </div>
+                </div>
+              {/* <div className="link-icon"><i className="fa fa-link"></i></div> 
+            </a> */}
+          </div>
+        </div>
+
+        
+      })
     }
 
     return (
+     <>
       <section id="portfolio">
 
       <div className="row">
@@ -40,7 +61,26 @@ class Portfolio extends Component {
             <div className="github text-center">View additional projects <a href="https://github.com/nicolewallace09">here</a></div>
           </div>
       </div>
+
+      <div className="row">
+      <hr></hr>
+      </div>
+
+        
+      <div className="row certificates">
+
+        <div className="twelve columns collapsed">
+          <h1>CERTIFICATES</h1>
+        </div>
+
+   
+        <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+        {certificates}
+        </div>
+     
+      </div>
    </section>
+   </>
     );
   }
 }

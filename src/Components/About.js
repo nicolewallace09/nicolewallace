@@ -16,6 +16,7 @@ import data from "../resumeData1.json";
 
 function About() {
     return (
+      <>
       <section id="about">
       <div className="row">
          {/* <div className="three columns">
@@ -29,7 +30,7 @@ function About() {
            
                <div className="columns download">
                   <p>
-                     <a href={data.resumeDownload} className="button">DOWNLOAD MY RESUME</a>
+                     <a href="https://docs.google.com/document/d/1PcqDKdG9-S-FM858u9WyHSUjUKZblV1tfPsq9p5y5Gc/edit?usp=sharing" download className="button">DOWNLOAD MY RESUME</a>
                   </p>
                </div>
             </div>
@@ -37,6 +38,7 @@ function About() {
       </div>
 
    </section>
+   </>
     );
   }
 

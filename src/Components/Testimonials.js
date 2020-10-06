@@ -15,6 +15,7 @@ class Testimonials extends Component {
     }
 
     return (
+      <>
       <section id="testimonials">
       <div className="text-container">
          <div className="row">
@@ -31,6 +32,7 @@ class Testimonials extends Component {
             </div>
          </div>
    </section>
+   </>
     );
   }
 }

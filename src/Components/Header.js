@@ -18,6 +18,7 @@ class Header extends Component {
     }
 
     return (
+      <>
       <header id="home">
 
       <nav id="nav-wrap">
@@ -63,6 +64,7 @@ class Header extends Component {
       </p>
 
    </header>
+   </>
     );
   }
 }

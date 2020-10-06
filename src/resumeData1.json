@@ -13,7 +13,7 @@
       "state":"CA"
     },
     "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "resumeDownload":"https://docs.google.com/document/d/1PcqDKdG9-S-FM858u9WyHSUjUKZblV1tfPsq9p5y5Gc/edit?usp=sharing",
     "social":[
       {
         "name":"linkedin",
@@ -156,6 +156,12 @@
         "category":"Note taker to allow users to read, write, save, and delete notes.",
         "image":"notetaker.png",
         "url":"https://note-express.herokuapp.com/"
+      },
+      {
+        "title":"Weather App",
+        "category":"A weather app uses server-side API and JavaScript to create a weather dashboard.",
+        "image":"weather.png",
+        "url":"https://nicolewallace09.github.io/weather-dashboard/"
       }
     ]
   },

@@ -15,6 +15,7 @@ class Contact extends Component {
     }
 
     return (
+      <>
       <section id="contact">
 
          <div className="row section-head">
@@ -75,6 +76,7 @@ class Contact extends Component {
            </div>
       </div>
    </section>
+   </>
     );
   }
 }
