@@ -1,17 +1,13 @@
 import React, { Component } from 'react';
 // import Typist from 'react-typist'; 
 import Typical from 'react-typical';
-import data from "../resumeData1.json";
+import data from "../resumeData.json";
 
 class Header extends Component {
   render() {
 
     if(data){
       var profilepic= "images/"+data.main.image;
-      // var name = this.props.data.name;
-      // var occupation= this.props.data.occupation;
-      // var description= this.props.data.description;
-      // var city= this.props.data.address.city;
       var networks= data.main.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
       })

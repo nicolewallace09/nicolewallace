@@ -1,5 +1,5 @@
 import React from 'react';
-import data from "../resumeData1.json";
+import data from "../resumeData.json";
 
    // if i want to add back contact details
    //  <div className="columns contact-details">

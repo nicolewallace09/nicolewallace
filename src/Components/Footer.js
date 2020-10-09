@@ -1,15 +1,8 @@
 import React, { Component } from 'react';
-import data from "../resumeData1.json";
+import data from "../resumeData.json";
 
 class Footer extends Component {
   render() {
-
-    // if(this.props.data){
-    //   var networks= this.props.data.social.map(function(network){
-    //     return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
-    //   })
-    // }
-
     if(data){
       var networks= data.main.social.map(function(network){
         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>

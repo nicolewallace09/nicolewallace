@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import data from "../resumeData1.json"
+import data from "../resumeData.json"
+
 
 class Portfolio extends Component {
   render() {
 
     if(data){
       var projects = data.portfolio.projects.map(function(projects){
-        var projectImage = 'images/portfolio/'+projects.image;
+        var projectImage = 'images/portfolio/' + projects.image;
+        var projectUrl = projects.url;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projects.url}>
+            <a href={projectUrl}>
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -17,9 +19,10 @@ class Portfolio extends Component {
                      <p>{projects.category}</p>
                   </div>
                 </div>
-              {/* <div className="link-icon"><i className="fa fa-link"></i></div> */}
-            </a>
+                </a>
+              <div className="link-icon"><a href={url}><i className="fa fa-link"></i></a></div>
           </div>
+          Test
         </div>
       })
       
@@ -53,10 +56,11 @@ class Portfolio extends Component {
          <div className="twelve columns collapsed">
 
             <h1>Full Stack Projects</h1>
-
+           
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}
             </div>
+           
 
             <div className="github text-center">View additional projects <a href="https://github.com/nicolewallace09">here</a></div>
           </div>
