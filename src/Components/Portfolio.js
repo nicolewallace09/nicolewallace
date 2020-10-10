@@ -20,9 +20,8 @@ class Portfolio extends Component {
                   </div>
                 </div>
                 </a>
-              <div className="link-icon"><a href={url}><i className="fa fa-link"></i></a></div>
+              <div className="link-icon"><a href={projectUrl}><i className="fa fa-link"></i></a></div>
           </div>
-          Test
         </div>
       })
       

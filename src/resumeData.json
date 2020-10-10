@@ -134,6 +134,18 @@
         "url":"https://techly.herokuapp.com/"
       },
       {
+        "title":"Work Day Scheduler",
+        "category":"Calendar-style scheduler allowing users to save events for each hour of the day.",
+        "image":"calender-shot.png",
+        "url":"https://nicolewallace09.github.io/work-day-scheduler/"
+      },
+      {
+        "title":"Weather App",
+        "category":"A weather app uses server-side API and JavaScript to create a weather dashboard.",
+        "image":"weather.png",
+        "url":"https://nicolewallace09.github.io/weather-dashboard/"
+      },
+      {
         "title":"Budget Tracker",
         "category":"Budget Tracker that allows users to add expenses and deposits to their budget with or without internet connection.",
         "image":"budgettracker.png",
@@ -146,34 +158,18 @@
         "url":"https://dry-harbor-54501.herokuapp.com/"
       },
       {
-        "title":"Work Day Scheduler",
-        "category":"Calendar-style scheduler allowing users to save events for each hour of the day.",
-        "image":"calender-shot.png",
-        "url":"https://nicolewallace09.github.io/work-day-scheduler/"
-      },
-      {
         "title":"Note Taker",
         "category":"Note taker to allow users to read, write, save, and delete notes.",
         "image":"notetaker.png",
         "url":"https://note-express.herokuapp.com/"
-      },
-      {
-        "title":"Weather App",
-        "category":"A weather app uses server-side API and JavaScript to create a weather dashboard.",
-        "image":"weather.png",
-        "url":"https://nicolewallace09.github.io/weather-dashboard/"
       }
     ]
   },
   "testimonials":{
     "testimonials":[
       {
-        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user":"Kareem Abdul Jabbar"
-      },
-      {
-        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user":"Steve Wozniak... impersonator"
+        "text":"If I want to add this later",
+        "user":"None"
       }
     ]
   }
