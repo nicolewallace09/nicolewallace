@@ -8,9 +8,10 @@ class Portfolio extends Component {
       var projects = data.portfolio.projects.map(function(projects){
         var projectImage = 'images/portfolio/' + projects.image;
         var projectUrl = projects.url;
+        var projectGit = projects.github; 
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a href={projectUrl}>
+            <a href={projectUrl} key={projects.id}>
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -19,10 +20,9 @@ class Portfolio extends Component {
                   </div>
                 </div>
                 </a>
-              <div className="link-icon"><a href={projectUrl}><i className="fa fa-link"></i></a></div>
           </div>
-          <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="demo"><button className="demo btn text-white"></button></a>
-          <button className="deploy btn"></button>
+          <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="deploy"><button type="button" className="repo"><i class="fa fa-link"></i></button></a>
+          <a href={projectGit} target="_blank" rel="noopener noreferrer" className="repo"><button type="button" className="deploy"><i class="fa fa-github"></i></button></a>
         </div>
       })
       
