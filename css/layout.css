@@ -128,8 +128,10 @@ header .scrolldown a:hover { color:  #015956; }
 	 outline: none;
 }
 
-.btn {
-   color: white; 
+.repo, .deploy {
+   background: none;
+   color: #015956;
+   align-content: center;
 }
 
 /* nav-wrap */
