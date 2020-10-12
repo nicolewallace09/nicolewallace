@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import data from "../resumeData.json"
-
+import data from "../resumeData.json";
 
 class Portfolio extends Component {
   render() {
@@ -22,6 +21,8 @@ class Portfolio extends Component {
                 </a>
               <div className="link-icon"><a href={projectUrl}><i className="fa fa-link"></i></a></div>
           </div>
+          <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="demo"><button className="demo btn text-white"></button></a>
+          <button className="deploy btn"></button>
         </div>
       })
       
@@ -29,7 +30,7 @@ class Portfolio extends Component {
         var certImage = 'images/portfolio/'+certificates.image;
         return <div key={certificates.title} className="columns portfolio-item">
            <div className="item-wrap">
-            {/* <a href={certificates.url} title={certificates.title} onClick={Modal}> */}
+        
                <img alt={certificates.title} src={certImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -37,8 +38,7 @@ class Portfolio extends Component {
                      <p>{certificates.description}</p>
                   </div>
                 </div>
-              {/* <div className="link-icon"><i className="fa fa-link"></i></div> 
-            </a> */}
+           
           </div>
         </div>
 

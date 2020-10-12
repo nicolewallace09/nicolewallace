@@ -128,6 +128,10 @@ header .scrolldown a:hover { color:  #015956; }
 	 outline: none;
 }
 
+.btn {
+   color: white; 
+}
+
 /* nav-wrap */
 #nav-wrap {
    font: 12px 'opensans-bold', sans-serif;
