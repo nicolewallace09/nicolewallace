@@ -125,7 +125,7 @@ header .scrolldown a:hover { color:  #015956; }
 	 margin: 0;
 	 padding: 0;
 	 border: none;
-	 outline: none;
+    outline: none;
 }
 
 .repo, .deploy {
@@ -157,6 +157,7 @@ ul#nav {
 
    /* center align the menu */
    text-align: center;
+
 }
 ul#nav li {
    position: relative;
@@ -175,7 +176,7 @@ ul#nav li a {
    line-height: 32px;
 	text-decoration: none;
    text-align: left;
-   color: white;
+   color: #015956;;
 
 	-webkit-transition: color .2s ease-in-out;
 	-moz-transition: color .2s ease-in-out;
@@ -185,7 +186,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #015956; }
+ul#nav li.current a { color: #CC5200;}
 
 
 /* ------------------------------------------------------------------ */
@@ -238,6 +239,9 @@ header .profile-pic {
    font-size: 20px;
 }
 
+.frontEnd-Icons, .backEnd-Icons, .devops-Icons {
+   padding: 20px 0;
+}
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section

@@ -6,7 +6,7 @@ class Portfolio extends Component {
 
     if(data){
       var projects = data.portfolio.projects.map(function(projects){
-        var projectImage = 'images/portfolio/' + projects.image;
+        var projectImage = 'images/portfolio/'+projects.image;
         var projectUrl = projects.url;
         var projectGit = projects.github; 
         return <div key={projects.title} className="columns portfolio-item">

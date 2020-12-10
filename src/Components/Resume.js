@@ -6,22 +6,26 @@ class Resume extends Component {
   render() {
 
     if(data){
-      var skillmessage = data.resume.skillmessage;
+      var skillmessage1 = data.resume.skillmessage1;
+      var skillmessage2 = data.resume.skillmessage2;
+      var skillmessage3 = data.resume.skillmessage3;
       var education = data.resume.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         <p>{education.description}</p></div>
       })
+
       var work = data.resume.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <p>{work.description}</p>
         </div>
       })
-      var skills = data.resume.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
-      })
+
+      // var skills = data.resume.skills.map(function(skills){
+      //   var className = 'bar-expand '+skills.name.toLowerCase();
+      //   return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+      // })
       
       
     }
@@ -64,11 +68,47 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
 
-            <h1 className="text-center">{skillmessage}
-            </h1>
-          
+            <h1 className="text-center">{skillmessage1}</h1>
+            <div className="frontEnd-Icons">
+              <center>
+              <img src="https://img.icons8.com/color/70/000000/javascript-logo-1.png" alt="javascript-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/html-5.png" alt="html-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/css3.png" alt="css-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/json--v1.png" alt="json-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/react-native.png" alt="react-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/bootstrap.png" alt="bootstrap-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/api.png" alt="api-icon"/>
+              </center>
+            </div>
 
-            <div className="bars">
+
+            <h1 className="text-center">{skillmessage2}</h1>
+            <div className="backEnd-Icons">
+              <center>
+              <img src="https://img.icons8.com/color/70/000000/nodejs.png" alt="node-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/mongodb.png" alt="mongodb"/>
+              <img src="https://img.icons8.com/color/70/000000/sql.png" alt="sql-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/npm.png" alt="npm-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/graphql.png" alt="graphql"/>
+              </center>
+            </div>
+
+            <h1 className="text-center">{skillmessage3}</h1>
+            <div className="devops-Icons">
+              <center>
+              <img src="https://img.icons8.com/color/70/000000/git.png" alt="git-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/visual-studio.png"alt="vs-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/github--v1.png" alt="github"/>
+              <img src="https://img.icons8.com/color/70/000000/office-365.png" alt="365-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/chrome--v1.png" alt="chrome-dev"/>
+              <img src="https://img.icons8.com/color/70/000000/woocommerce.png" alt="woocommerce"/>
+              <img src="https://img.icons8.com/color/70/000000/heroku.png" alt="heroku"/>
+              <img src="https://img.icons8.com/color/70/000000/wordpress.png"alt="wordpress"/>
+              <img src="https://img.icons8.com/color/70/000000/mac-os-logo.png" alt="macios"/>
+              </center>
+            </div>
+
+            {/* <div className="bars">
               <ul className="skills">
                 {skills}
               </ul>
@@ -77,7 +117,7 @@ class Resume extends Component {
 
             <div className="additional-skills text-center">
               <h1>Additional Skills:</h1><p>jQuery, Frameworks (Bootstrap, Materialize), Handlebars, Express, Inquirer, Restful API's, Git, Responsive Web Design, Recharts, GraphQL/Apollo</p>
-            </div>
+            </div> */}
           
 			</div>
   
