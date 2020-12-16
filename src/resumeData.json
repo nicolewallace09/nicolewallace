@@ -161,7 +161,7 @@
         "id": 6,
         "title":"Movie App",
         "category":"An app that allows you to search movies. Ability to save coming soon.",
-        "image":"movieapp",
+        "image":"movieapp.png",
         "url":"https://nicolewallace09.github.io/react-movie-app/",
         "github": "https://github.com/nicolewallace09/react-movie-app"
       },
