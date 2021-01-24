@@ -17,8 +17,8 @@ The user should clone the repository from GitHub and install dependencies. To ru
 
 ## Usage 
 This application will allow users view an about me page, links to find me, view my projects, and view my resume.<br>
-Please view deployed application on [Git Hub Pages](https://nicolewallace09.github.io/react-portfolio/)<br>
-<img src='src/assets/images/screenshot.png'>
+Please view deployed application on [Git Hub Pages](https://nicolewallace09.github.io/nicolewallace/)<br>
+<img src='public/images/readme/portfolio-img.png'>
 
 ## License 
 This project is license under MIT
