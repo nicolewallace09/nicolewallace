@@ -82,6 +82,11 @@
         "title": "Bootstrap",
         "image": "codeacademy-bootstrap.png",
         "description": "Certificate in Bootstrap from Code Academy"
+      },
+      {
+        "title": "Responsive Web Design",
+        "image": "codeacademy-responsive.png",
+        "description": "Certificate in Responsive Web Design from Code Academy"
       }
     ],
     "skills":[
@@ -144,8 +149,9 @@
       {
         "id": 4,
         "title":"Team Profile Generator",
-        "category":"A back end app to generate your team profile using Node, Inquirer, and Node Filesystem.",
+        "category":"A back end app to generate your team profile using Node, Inquirer, and Node Filesystem. (No deployed website)",
         "image":"teamprofile.png",
+        "url": "https://github.com/nicolewallace09/team-profile-generator",
         "github": "https://github.com/nicolewallace09/team-profile-generator"
       },
       {
