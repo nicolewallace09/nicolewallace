@@ -30,7 +30,7 @@ function About() {
            
                <div className="columns download">
                   <p>
-                  <a href="https://www.dropbox.com/s/7ql4si568zz9vg0/Nicole%20Wallace%20-%20Resume%20%28Dec%29.pdf?dl=1" download className="button">DOWNLOAD MY RESUME</a>
+                  <a href="https://www.dropbox.com/s/ahbf0lizg0rghlh/Nicole%20Wallace%20-%20Resume%20%282021%29.pdf?dl=0" download className="button">DOWNLOAD MY RESUME</a>
                   </p>
                </div>
             </div>
