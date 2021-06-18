@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03b5790585025612aa299c5c5e9ad324",
+    "revision": "ea1c1a73ee55be73ed5145e1dcc92853",
     "url": "/nicolewallace/index.html"
   },
   {
-    "revision": "15fdf9935e64d751bca6",
+    "revision": "53a80f4504d2e40c059a",
     "url": "/nicolewallace/static/css/main.5facb584.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/nicolewallace/static/js/2.0c26615b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "15fdf9935e64d751bca6",
-    "url": "/nicolewallace/static/js/main.320d37e3.chunk.js"
+    "revision": "53a80f4504d2e40c059a",
+    "url": "/nicolewallace/static/js/main.6f36b1b0.chunk.js"
   },
   {
     "revision": "d6891746aae73724bcb9",
