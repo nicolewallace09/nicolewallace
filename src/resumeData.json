@@ -29,6 +29,11 @@
         "name":"email",
         "url":"mailto:nicole.elisaw@gmail.com",
         "className":"fa fa-envelope-o"
+      },
+      {
+        "name":"codecademy",
+        "url":"https://www.codecademy.com/profiles/nicolewallace",
+        "className":"fa fa-code"
       }
     ]
   },
