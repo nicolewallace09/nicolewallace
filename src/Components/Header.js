@@ -44,7 +44,7 @@ class Header extends Component {
             loop={Infinity}
             wrapper="h2"
             steps={[
-            'Full Stack Web Developer', 1000
+            'Full Stack Software Engineer', 1000
             ]}
             />
           
