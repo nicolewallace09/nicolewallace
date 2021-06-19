@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/nicolewallace/precache-manifest.39858482ab7ae17bd6a35d1fcbd473bc.js"
+  "/nicolewallace/precache-manifest.7157855bf6917afdd222915a16188fda.js"
 );
 
 self.addEventListener('message', (event) => {
