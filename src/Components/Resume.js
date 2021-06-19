@@ -71,7 +71,7 @@ class Resume extends Component {
             <h1 className="text-center">{skillmessage1}</h1>
             <div className="frontEnd-Icons">
               <center>
-              <img src="https://img.icons8.com/color/70/000000/javascript-logo-1.png" alt="javascript-icon"/>
+              <img src="https://img.icons8.com/color/70/000000/javascript.png" alt="javascript-icon"/>
               <img src="https://img.icons8.com/color/70/000000/html-5.png" alt="html-icon"/>
               <img src="https://img.icons8.com/color/70/000000/css3.png" alt="css-icon"/>
               <img src="https://img.icons8.com/color/70/000000/json--v1.png" alt="json-icon"/>
