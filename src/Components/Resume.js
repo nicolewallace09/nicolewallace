@@ -99,12 +99,7 @@ class Resume extends Component {
               <img src="https://img.icons8.com/color/70/000000/git.png" alt="git-icon"/>
               <img src="https://img.icons8.com/color/70/000000/visual-studio.png"alt="vs-icon"/>
               <img src="https://img.icons8.com/color/70/000000/github--v1.png" alt="github"/>
-              <img src="https://img.icons8.com/color/70/000000/office-365.png" alt="365-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/chrome--v1.png" alt="chrome-dev"/>
-              <img src="https://img.icons8.com/color/70/000000/woocommerce.png" alt="woocommerce"/>
               <img src="https://img.icons8.com/color/70/000000/heroku.png" alt="heroku"/>
-              <img src="https://img.icons8.com/color/70/000000/wordpress.png"alt="wordpress"/>
-              <img src="https://img.icons8.com/color/70/000000/mac-os-logo.png" alt="macios"/>
               </center>
             </div>
 
