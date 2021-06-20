@@ -20,7 +20,7 @@ function About() {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src='/public/images/About_Me-removebg-preview.png' alt="Profile Pic" />
+            <img className="profile-pic"  src='./public/images/About_Me-removebg-preview.png' alt="Profile Pic" />
          </div>
          <div className="nine columns main-col">
             <h2>Hello World, I'm Nicole!</h2>
