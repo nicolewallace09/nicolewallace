@@ -239,6 +239,13 @@ header .profile-pic {
    font-size: 20px;
 }
 
+#about .about-pic {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+}
+
 .frontEnd-Icons, .backEnd-Icons, .devops-Icons {
    padding: 20px 0;
 }
