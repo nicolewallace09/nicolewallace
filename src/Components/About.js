@@ -19,9 +19,9 @@ function About() {
       <>
       <section id="about">
       <div className="row">
-         <div className="twelve columns">
+         {/* <div className="twelve columns">
             <img className="about-pic"  src='images/aboutme.png' alt="aboutpic" />
-         </div>
+         </div> */}
          <div className="twelve columns main-col">
             <h2>Hello, I'm Nicole!</h2>
             <p>I am Full Stack Software Engineer in the SF Bay Area with a Bachelor’s Degree and 2+ years professional experience in Business Administration combined with 3 Liberal Arts Associate’s Degrees in Arts and Sciences. I am a naturally curious person which makes me want to always learn new things, a problem-solver who questions everything, and a hard worker who doesn't take life too seriously and enjoys the little things.</p>
