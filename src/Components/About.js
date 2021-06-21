@@ -19,10 +19,10 @@ function About() {
       <>
       <section id="about">
       <div className="row">
-         <div className="five columns">
-            <img className="about-pic"  src='images/About_Me-removebg-preview.png' alt="aboutpic" />
+         <div className="three columns">
+            <img className="about-pic"  src='images/aboutme.png' alt="aboutpic" />
          </div>
-         <div className="seven columns main-col">
+         <div className="nine columns main-col">
             <h2>Hello World, I'm Nicole!</h2>
             <p>I am Full Stack Software Engineer in the SF Bay Area with a Bachelor’s Degree and 2+ years professional experience in Business Administration combined with 3 Liberal Arts Associate’s Degrees in Arts and Sciences. I am a naturally curious person which makes me want to always learn new things, a problem-solver who questions everything, and a hard worker who doesn't take life too seriously and enjoys the little things.</p>
             <p>When I was younger I was exposed to coding for fun, but didn't know I could make a career out of it. Being from a small city across San Francisco, I wasn't exposed to all the opportunities I could make for myself. For years, I wanted to be a Software Engineer, but had self-doubt and did not know if I could achieve this. Then I decided to switch careers during the start of the global pandemic and quit my full time job to fulfill my dreams of learning how to code. </p>
