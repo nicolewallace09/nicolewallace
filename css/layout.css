@@ -242,8 +242,8 @@ header .profile-pic {
 #about .about-pic {
    position: relative;
    border-radius: 100%;
-   width: 20em;
-   height: 20em;
+   width: 500px;
+   height: 500px;
 }
 
 .frontEnd-Icons, .backEnd-Icons, .devops-Icons {
