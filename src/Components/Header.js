@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Typist from 'react-typist'; 
 import Typical from 'react-typical';
 import data from "../resumeData.json";
 

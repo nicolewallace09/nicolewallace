@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import Modal from 'react-modal';
 import data from "../resumeData.json";
 
 class Resume extends Component {
