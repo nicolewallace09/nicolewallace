@@ -2,17 +2,9 @@
   "main": {
     "name":"NICOLE WALLACE",
     "occupation":"Full Stack Web Developer",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
     "bio":"Hello, I'm Nicole! I switched my gears from my education in Business to take on Web Development to keep challenging myself in ways I thought I never could. Web Development allows me to continually create and creatively find new ways to make processes better. I always believed that anything can be improved and there are different ways to solve problems. With that being said, I am Full Stack Web Developer based in the San Francisco Bay Area with a Bachelor’s Degree and 2+ years professional experience in Business Administration combined with 3 different Liberal Arts degrees. I am a naturally curious person which makes me want to always learn new things. I am a problem-solver who questions everything. I am a hard worker who doesn't take life too seriously and enjoys the little things. You will always find a smile on my face.",
     "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "nicole.elisaw@gmail.com",
-    "phone": "925-698-9244",
-    "address":{
-      "city":"San Francisco Bay Area",
-      "state":"CA"
-    },
-    "website": "http://www.timbakerdev.com",
     "resumeDownload":"https://docs.google.com/document/d/1PcqDKdG9-S-FM858u9WyHSUjUKZblV1tfPsq9p5y5Gc/edit?usp=sharing",
     "social":[
       {
@@ -198,14 +190,6 @@
         "image":"notetaker.png",
         "url":"https://note-express.herokuapp.com/",
         "github": "https://github.com/nicolewallace09/note-taker"
-      }
-    ]
-  },
-  "testimonials":{
-    "testimonials":[
-      {
-        "text":"If I want to add this later",
-        "user":"None"
       }
     ]
   }

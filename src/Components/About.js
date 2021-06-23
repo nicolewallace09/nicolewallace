@@ -1,19 +1,6 @@
 import React from 'react';
 // import data from "../resumeData.json";
 
-   // if i want to add back contact details
-   //  <div className="columns contact-details">
-   //                <h2>Contact Me </h2>
-   //                <p className="address">
-	// 					   {/* <span>{name}</span><br /> */}
-	// 					   <span>{street}<br />
-	// 					         {city} {state}
-   //                 </span><br />
-	// 					   <span>{phone}</span><br />
-   //                   <span>{email}</span>
-	// 				   </p>
-   //             </div> 
-
 function About() {
     return (
       <>
