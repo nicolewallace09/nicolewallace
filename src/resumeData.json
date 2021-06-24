@@ -129,6 +129,14 @@
       },
       {
         "id": 2,
+        "title":"Student profiles",
+        "category":"Search for students from an API and have the ability to view their information and add tags.",
+        "image":"student.png",
+        "url":"https://nicolewallace09.github.io/student-profiles/",
+        "github": "https://github.com/nicolewallace09/student-profiles"
+      },
+      {
+        "id": 3,
         "title":"Shopify Challenge",
         "category":"Save movie nominations from the OMDB API using JavaScript, React, React-Router, HTML, CSS, and Local Storage.",
         "image":"shoppies.png",
@@ -136,7 +144,7 @@
         "github": "https://github.com/nicolewallace09/the-shoppies"
       },
       {
-        "id": 3,
+        "id": 4,
         "title":"Travel Planner",
         "category":"A Travel Planner using JavaScript, jQuery, MateralizeCSS, CSS, HTML, and Local Storage, and HoteLook/SkyScanner APIs.",
         "image":"travelplanner.png",
@@ -144,7 +152,7 @@
         "github": "https://github.com/nicolewallace09/travel-planner"
       },
       {
-        "id": 4,
+        "id": 5,
         "title":"Techly",
         "category":"CMS-style social networking site using MySql (Sequelize), Passport, Handlebars,js, Express.js, JavaScript, HTML, CSS and MVC paradigm.",
         "image":"techlyapp.png",
@@ -152,7 +160,7 @@
         "github": "https://github.com/nicolewallace09/techly"
       },
       {
-        "id": 5,
+        "id": 6,
         "title":"Team Profile Generator",
         "category":"A back end app to generate your team profile using Node, Inquirer, and Node Filesystem. (No deployed website)",
         "image":"teamprofile.png",
@@ -160,7 +168,7 @@
         "github": "https://github.com/nicolewallace09/team-profile-generator"
       },
       {
-        "id": 6,
+        "id": 7,
         "title":"Work Day Scheduler",
         "category":"Calendar-style scheduler using JavaScript, jQuery, HTML, CSS, and Local Storage. ",
         "image":"calender-shot.png",
@@ -168,7 +176,7 @@
         "github": "https://github.com/nicolewallace09/work-day-scheduler"
       },
       {
-        "id": 7,
+        "id": 8,
         "title":"Weather App",
         "category":"A weather dashboard using JavaScript, jQuery, HTML, CSS and Open Weather API.",
         "image":"weather.png",
@@ -176,7 +184,7 @@
         "github": "https://github.com/nicolewallace09/weather-dashboard"
       },
       {
-        "id": 8,
+        "id": 9,
         "title":"The Tech Blog",
         "category":"A CMS blog using Node.js, MySQL, HTML, CSS, Handlebars.js, Sequelize, and MVC paradigm",
         "image":"techblog.png",
@@ -184,7 +192,7 @@
         "github": "https://github.com/nicolewallace09/the-tech-blog"
       },
       {
-        "id": 9,
+        "id": 10,
         "title":"Note Taker",
         "category":"Note taker using Express.js, Node.js, JavaScript, HTML, and CSS",
         "image":"notetaker.png",
