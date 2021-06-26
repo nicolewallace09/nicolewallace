@@ -68,39 +68,40 @@ class Resume extends Component {
          <div className="nine columns main-col">
 
             <h1 className="text-center">{skillmessage1}</h1>
-            <div className="frontEnd-Icons">
-              <center>
-              <img src="https://img.icons8.com/color/70/000000/javascript.png" alt="javascript-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/html-5.png" alt="html-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/css3.png" alt="css-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/json--v1.png" alt="json-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/react-native.png" alt="react-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/vue-js.png" alt="view-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/bootstrap.png" alt="bootstrap-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/api.png" alt="api-icon"/>
-              </center>
+            <div className="skills-section">
+              <div className="frontEnd-Icons">
+                <img src="https://img.icons8.com/color/70/000000/javascript.png" alt="javascript-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/html-5.png" alt="html-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/css3.png" alt="css-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/json--v1.png" alt="json-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/react-native.png" alt="react-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/vue-js.png" alt="view-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/bootstrap.png" alt="bootstrap-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/api.png" alt="api-icon"/>
+              </div>
             </div>
 
 
             <h1 className="text-center">{skillmessage2}</h1>
-            <div className="backEnd-Icons">
-              <center>
-              <img src="https://img.icons8.com/color/70/000000/nodejs.png" alt="node-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/mongodb.png" alt="mongodb"/>
-              <img src="https://img.icons8.com/color/70/000000/sql.png" alt="sql-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/npm.png" alt="npm-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/graphql.png" alt="graphql"/>
-              </center>
+            <div className="skills-section">
+              <div className="backEnd-Icons">
+                <img src="https://img.icons8.com/color/70/000000/nodejs.png" alt="node-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/mongodb.png" alt="mongodb"/>
+                <img src="https://img.icons8.com/color/70/000000/sql.png" alt="sql-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/npm.png" alt="npm-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/graphql.png" alt="graphql"/>
+              </div>
             </div>
+            
 
             <h1 className="text-center">{skillmessage3}</h1>
-            <div className="devops-Icons">
-              <center>
-              <img src="https://img.icons8.com/color/70/000000/git.png" alt="git-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/visual-studio-code-2019.png" alt="vs-icon"/>
-              <img src="https://img.icons8.com/color/70/000000/github--v1.png" alt="github"/>
-              <img src="https://img.icons8.com/color/70/000000/heroku.png" alt="heroku"/>
-              </center>
+            <div className="skills-section">
+              <div className="devops-Icons">
+                <img src="https://img.icons8.com/color/70/000000/git.png" alt="git-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/visual-studio-code-2019.png" alt="vs-icon"/>
+                <img src="https://img.icons8.com/color/70/000000/github--v1.png" alt="github"/>
+                <img src="https://img.icons8.com/color/70/000000/heroku.png" alt="heroku"/>
+              </div>
             </div>
 
             {/* <div className="bars">
