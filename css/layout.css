@@ -301,6 +301,16 @@ header .profile-pic {
 /*	Skill Bars
 /*----------------------------------------------*/
 
+.skills-section {
+   display: flex;
+   align-self: center;
+   justify-content: space-around;
+}
+
+.frontEnd-Icons, .backEnd-Icons, .devops-Icons {
+   flex-wrap: wrap;
+}
+
 .bars {
 	width: 95%;
 	float: left;
