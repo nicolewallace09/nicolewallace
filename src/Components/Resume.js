@@ -78,6 +78,7 @@ class Resume extends Component {
                 <img src="https://img.icons8.com/color/70/000000/vue-js.png" alt="view-icon"/>
                 <img src="https://img.icons8.com/color/70/000000/bootstrap.png" alt="bootstrap-icon"/>
                 <img src="https://img.icons8.com/color/70/000000/api.png" alt="api-icon"/>
+                <img src="https://img.icons8.com/ios-filled/70/000000/jquery.png" alt="jquery"/>
               </div>
             </div>
 
@@ -101,6 +102,9 @@ class Resume extends Component {
                 <img src="https://img.icons8.com/color/70/000000/visual-studio-code-2019.png" alt="vs-icon"/>
                 <img src="https://img.icons8.com/color/70/000000/github--v1.png" alt="github"/>
                 <img src="https://img.icons8.com/color/70/000000/heroku.png" alt="heroku"/>
+                <img src="https://img.icons8.com/color/70/000000/shopify.png" alt="shopify"/>
+                <img src="https://img.icons8.com/color/70/000000/wordpress.png" alt="wordpress"/>
+                <img src="https://img.icons8.com/doodle/70/000000/canva.png" alt="canva"/>
               </div>
             </div>
 

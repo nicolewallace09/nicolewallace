@@ -52,6 +52,12 @@
     ],
     "work":[
       {
+        "company":"J.CO Art Haus",
+        "title":"Frontend Web Developer",
+        "years":"July 2020 - Current",
+        "description":"Working on web development projects utilizing the Shopify platform to increase customer traffic and branding."
+      },
+      {
         "company":"Belcampo Meat Co.",
         "title":"Data Recording Analyst/Operations Coordinator",
         "years":"March 2019 - April 2020",
@@ -145,6 +151,14 @@
       },
       {
         "id": 4,
+        "title":"Web Scraper",
+        "category":"Backend web scraping application using Node, Cheerio, and Puppeteer.",
+        "image":"webscraper.png",
+        "url":"https://github.com/nicolewallace09/webscraper2",
+        "github": "https://github.com/nicolewallace09/webscraper2"
+      },
+      {
+        "id": 5,
         "title":"Travel Planner",
         "category":"A Travel Planner using JavaScript, jQuery, MateralizeCSS, CSS, HTML, and Local Storage, and HoteLook/SkyScanner APIs.",
         "image":"travelplanner.png",
@@ -152,7 +166,7 @@
         "github": "https://github.com/nicolewallace09/travel-planner"
       },
       {
-        "id": 5,
+        "id": 6,
         "title":"Techly",
         "category":"CMS-style social networking site using MySql (Sequelize), Passport, Handlebars,js, Express.js, JavaScript, HTML, CSS and MVC paradigm.",
         "image":"techlyapp.png",
@@ -160,7 +174,7 @@
         "github": "https://github.com/nicolewallace09/techly"
       },
       {
-        "id": 6,
+        "id": 7,
         "title":"Team Profile Generator",
         "category":"A back end app to generate your team profile using Node, Inquirer, and Node Filesystem. (No deployed website)",
         "image":"teamprofile.png",
@@ -168,7 +182,7 @@
         "github": "https://github.com/nicolewallace09/team-profile-generator"
       },
       {
-        "id": 7,
+        "id": 8,
         "title":"Work Day Scheduler",
         "category":"Calendar-style scheduler using JavaScript, jQuery, HTML, CSS, and Local Storage. ",
         "image":"calender-shot.png",
@@ -176,7 +190,7 @@
         "github": "https://github.com/nicolewallace09/work-day-scheduler"
       },
       {
-        "id": 8,
+        "id": 9,
         "title":"Weather App",
         "category":"A weather dashboard using JavaScript, jQuery, HTML, CSS and Open Weather API.",
         "image":"weather.png",
@@ -184,7 +198,7 @@
         "github": "https://github.com/nicolewallace09/weather-dashboard"
       },
       {
-        "id": 9,
+        "id": 10,
         "title":"The Tech Blog",
         "category":"A CMS blog using Node.js, MySQL, HTML, CSS, Handlebars.js, Sequelize, and MVC paradigm",
         "image":"techblog.png",
@@ -192,7 +206,7 @@
         "github": "https://github.com/nicolewallace09/the-tech-blog"
       },
       {
-        "id": 10,
+        "id": 11,
         "title":"Note Taker",
         "category":"Note taker using Express.js, Node.js, JavaScript, HTML, and CSS",
         "image":"notetaker.png",
