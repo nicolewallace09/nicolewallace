@@ -212,6 +212,14 @@
         "image":"notetaker.png",
         "url":"https://note-express.herokuapp.com/",
         "github": "https://github.com/nicolewallace09/note-taker"
+      },
+      {
+        "id": 12,
+        "title":"E-commerce Backend",
+        "category":"This project is the creation of the back end for an e-commerce site. This application used Express.js API and Sequelize to interact with a MySQL database.",
+        "image":"ecommerce.png",
+        "url":"https://github.com/nicolewallace09/e-commerce-backend",
+        "github": "https://github.com/nicolewallace09/e-commerce-backend"
       }
     ]
   }
