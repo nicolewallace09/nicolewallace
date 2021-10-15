@@ -65,9 +65,9 @@ class Portfolio extends Component {
           </div>
       </div>
 
-      <div className="row">
+      {/* <div className="row">
       <hr></hr>
-      </div>
+      </div> */}
 
         
       {/* <div className="row certificates">

@@ -154,7 +154,6 @@
         "title":"Web Scraper",
         "category":"Backend web scraping application using Node, Cheerio, and Puppeteer.",
         "image":"webscraper.png",
-        "url":"https://github.com/nicolewallace09/webscraper2",
         "github": "https://github.com/nicolewallace09/webscraper2"
       },
       {
@@ -178,7 +177,6 @@
         "title":"Team Profile Generator",
         "category":"A back end app to generate your team profile using Node, Inquirer, and Node Filesystem. (No deployed website)",
         "image":"teamprofile.png",
-        "url": "https://github.com/nicolewallace09/team-profile-generator",
         "github": "https://github.com/nicolewallace09/team-profile-generator"
       },
       {
@@ -218,7 +216,6 @@
         "title":"E-commerce Backend",
         "category":"This project is the creation of the back end for an e-commerce site. This application used Express.js API and Sequelize to interact with a MySQL database.",
         "image":"ecommerce.png",
-        "url":"https://github.com/nicolewallace09/e-commerce-backend",
         "github": "https://github.com/nicolewallace09/e-commerce-backend"
       }
     ]
