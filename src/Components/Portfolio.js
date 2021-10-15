@@ -21,29 +21,29 @@ class Portfolio extends Component {
                 </div>
                 </a>
           </div>
-          <a href={projectGit} target="_blank" rel="noopener noreferrer" className="repo"><button type="button" className="deploy"><i class="fa fa-github"></i></button></a>
-          <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="deploy"><button type="button" className="repo"><i class="fa fa-link"></i></button></a>
+          { projectGit ? <a href={projectGit} target="_blank" rel="noopener noreferrer" className="repo"><button type="button" className="deploy"><i class="fa fa-github"></i></button></a> : null }
+          { projectUrl ? <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="deploy"><button type="button" className="repo"><i class="fa fa-link"></i></button></a> : null } 
         </div>
       })
       
-      var certificates = data.resume.certificates.map(function(certificates){
-        var certImage = 'images/portfolio/'+certificates.image;
-        return <div key={certificates.title} className="columns portfolio-item">
-           <div className="item-wrap">
+      // var certificates = data.resume.certificates.map(function(certificates){
+      //   var certImage = 'images/portfolio/'+certificates.image;
+      //   return <div key={certificates.title} className="columns portfolio-item">
+      //      <div className="item-wrap">
         
-               <img alt={certificates.title} src={certImage} />
-               <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{certificates.title}</h5>
-                     <p>{certificates.description}</p>
-                  </div>
-                </div>
+      //          <img alt={certificates.title} src={certImage} />
+      //          <div className="overlay">
+      //             <div className="portfolio-item-meta">
+      //            <h5>{certificates.title}</h5>
+      //                <p>{certificates.description}</p>
+      //             </div>
+      //           </div>
            
-          </div>
-        </div>
+      //     </div>
+      //   </div>
 
         
-      })
+      // })
     }
 
     return (
@@ -70,7 +70,7 @@ class Portfolio extends Component {
       </div>
 
         
-      <div className="row certificates">
+      {/* <div className="row certificates">
 
         <div className="twelve columns collapsed">
           <h1>CERTIFICATES</h1>
@@ -79,9 +79,9 @@ class Portfolio extends Component {
    
         <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
         {certificates}
-        </div>
+        </div> 
      
-      </div>
+      </div> */}
    </section>
    </>
     );
